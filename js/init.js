@@ -993,6 +993,7 @@ var NeohFilterArray		= [];
 	$(document).ready(function(){
 		$('div.subscribe_form').remove();
 		$('li:has(a[href="collection.html"])').remove();
+		$('a[href="https://opensea.io/"]').remove();
 		FrenifyNeoh.init();
 		setTimeout(function(){
 			FrenifyNeoh.isotopeCollection();
