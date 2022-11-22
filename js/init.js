@@ -992,6 +992,7 @@ var NeohFilterArray		= [];
 	// READY Functions
 	$(document).ready(function(){
 		$('div.subscribe_form').remove();
+		$('li:has(a[href="collection.html"])').remove();
 		FrenifyNeoh.init();
 		setTimeout(function(){
 			FrenifyNeoh.isotopeCollection();
