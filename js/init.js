@@ -246,7 +246,7 @@ var NeohFilterArray		= [];
 						}
 					}
 				};
-				new Swiper(element, mainSliderOptions);
+				// new Swiper(element, mainSliderOptions);
 			});	
 		},
 		

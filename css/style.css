@@ -318,9 +318,9 @@ a.full_link{
 .neoh_fn_hero .overlay_slider .swiper-slide{
 	height: 100%;
 }
-.neoh_fn_hero .overlay_slider .swiper-container{
+/* .neoh_fn_hero .overlay_slider .swiper-container{
 	cursor: e-resize;
-}
+} */
 .neoh_fn_hero iframe{
 	position: absolute;
 	top: 50%;
