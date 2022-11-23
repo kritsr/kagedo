@@ -994,6 +994,9 @@ var NeohFilterArray		= [];
 		$('div.subscribe_form').remove();
 		$('li:has(a[href="collection.html"])').remove();
 		$('a[href="https://opensea.io/"]').remove();
+		// Section drop also contain timeline, so selecter will be selective
+		$('section#drop>div.container>div.neoh_fn_title:first-child').remove();
+		$('section#drop>div.container>div.neoh_fn_drops').remove();
 		FrenifyNeoh.init();
 		setTimeout(function(){
 			FrenifyNeoh.isotopeCollection();
