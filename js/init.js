@@ -994,6 +994,7 @@ var NeohFilterArray		= [];
 		$('div.subscribe_form').remove();
 		$('li:has(a[href="collection.html"])').remove();
 		$('a[href="https://opensea.io/"]').remove();
+		$('div.footer_bottom a[href="roadmap.html"]').remove();
 		// Section drop also contain timeline, so selecter will be selective
 		$('section#drop>div.container>div.neoh_fn_title:first-child').remove();
 		$('section#drop>div.container>div.neoh_fn_drops').remove();
