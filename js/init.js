@@ -993,6 +993,7 @@ var NeohFilterArray		= [];
 	$(document).ready(function(){
 		$('div.subscribe_form').remove();
 		$('li:has(a[href="collection.html"])').remove();
+		$('li>a[href="contact.html"]')[0].href = '#footer';
 		$('a[href="https://opensea.io/"]').remove();
 		$('div.footer_bottom a[href="roadmap.html"]').remove();
 		// Section drop also contain timeline, so selecter will be selective
